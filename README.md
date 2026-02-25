@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Divyansh Jain | Modern Frontend Developer
 
-## Getting Started
+Professional portfolio built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**. This project showcases my journey as a Frontend Developer, featuring industry-level applications and personal experimental labs.
 
-First, run the development server:
 
-```bash
+
+## 🚀 Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + Shadcn/ui
+- **Animations:** Framer Motion
+- **Themes:** Next-themes (Dark/Light mode)
+- **Icons:** Lucide-React
+
+## 🛠️ Project Highlights
+
+### Industry Work
+- **Outliny:** UI development for a modern structural platform.
+- **TruvioAI:** Full-stack AI application for Google rating management using NestJS & Puppeteer.
+- **Core:IO:** Real-time live-streaming dashboard with dynamic panel management.
+- **Earth BMS:** High-scale CRM with Role-Based Access Control (RBAC).
+
+### Personal Labs
+- **Tail Dashboard:** Advanced administrative UI patterns.
+- **PDF Merger:** Client-side utility for document processing.
+- **BlueCare Hospital:** Healthcare appointment and slot management system.
+
+## 📈 Experience Timeline
+
+- **Softinator Group of Industries** | Frontend Developer (Contract)
+- **WebiWork Technologies** | Frontend Developer
+- **Zithas Technologies** | Frontend Developer
+- **CodeBetter** | React Developer (Intern)
+
+## ⚙️ Local Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/divyanshjain1314/codebydivyansh.git](https://github.com/divyanshjain1314/codebydivyansh.git)
+
+   Install dependencies:
+
+Bash
+npm install
+Run the development server:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Build for production:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Bash
+npm run build
+🌐 Deployment
+This portfolio is optimized for Vercel. Simply push your changes to the main branch, and Vercel will handle the CI/CD pipeline automatically.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Let's Connect!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+LinkedIn: jain-divyansh-in
 
-## Learn More
+GitHub: @divyanshjain1314
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Email: jain.divyansh3113@gmail.com
