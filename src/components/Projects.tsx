@@ -1,41 +1,60 @@
-"use client"
-import { motion } from "framer-motion"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { ExternalLink, Github, Code2 } from "lucide-react"
+"use client";
+import { motion } from "framer-motion";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { ExternalLink, Github, Code2 } from "lucide-react";
 
 const projects = [
   {
-    title: "Outliny (Last Project)",
-    description: "UI development focusing on clean page layouts and responsive design to improve user workflow.",
+    title: "Pathstone Service Matrix (Current Project)",
+    description:
+      "An enterprise-grade client management ecosystem designed to streamline financial advisory workflows. It features a robust service discovery engine, holistic client dimension mapping, and integrated activity tracking to provide personalized, high-impact client solutions.",
+    tags: ["React.js", "JavaScript", "SCSS"],
+    link: "https://pathstone.com",
+    className: "md:col-span-3 md:row-span-2",
+    type: "Enterprise SaaS",
+  },
+  {
+    title: "Outliny",
+    description:
+      "UI development focusing on clean page layouts and responsive design to improve user workflow.",
     tags: ["Next.js", "Tailwind CSS", "TypeScript"],
     link: "https://outliny.com",
     className: "md:col-span-2 md:row-span-2",
-    type: "Industry"
+    type: "Industry",
   },
   {
     title: "TruvioAI",
-    description: "Full-stack AI app to manage Google ratings using Puppeteer scraping and ChatGPT API.",
+    description:
+      "Full-stack AI app to manage Google ratings using Puppeteer scraping and ChatGPT API.",
     tags: ["Next.js", "NestJS", "PostgreSQL", "AWS"],
     link: "https://truvioai.com",
     className: "md:col-span-1 md:row-span-2",
-    type: "AI & Fullstack"
+    type: "AI & Fullstack",
   },
   {
     title: "Core:IO",
-    description: "Live streaming dashboard with dynamic panels and Syncfusion integration.",
+    description:
+      "Live streaming dashboard with dynamic panels and Syncfusion integration.",
     tags: ["React.js", "Syncfusion", "Tailwind"],
     link: "#",
     className: "md:col-span-1 md:row-span-1",
-    type: "Streaming"
+    type: "Streaming",
   },
   {
     title: "Earth BMS",
-    description: "Comprehensive CRM with RBAC, Finance, and Staff management modules.",
+    description:
+      "Comprehensive CRM with RBAC, Finance, and Staff management modules.",
     tags: ["React", "Redux", "Bootstrap"],
     link: "#",
     className: "md:col-span-1 md:row-span-1",
-    type: "CRM"
+    type: "CRM",
   },
   {
     title: "Revolut Clone",
@@ -43,15 +62,16 @@ const projects = [
     tags: ["React.js", "TypeScript", "Tailwind"],
     link: "#",
     className: "md:col-span-1 md:row-span-1",
-    type: "UI/UX"
+    type: "UI/UX",
   },
   {
     title: "Putups",
-    description: "Business management platform for fieldworker and service tracking.",
+    description:
+      "Business management platform for fieldworker and service tracking.",
     tags: ["React.js", "Redux", "Google Maps"],
     link: "#",
     className: "md:col-span-1 md:row-span-1",
-    type: "Management"
+    type: "Management",
   },
   {
     title: "Glamour Decore",
@@ -59,9 +79,9 @@ const projects = [
     tags: ["React", "Bootstrap", "API Integration"],
     link: "https://www.glamourdecor.in",
     className: "md:col-span-1 md:row-span-1",
-    type: "E-commerce"
-  }
-]
+    type: "E-commerce",
+  },
+];
 
 export default function Projects() {
   return (
@@ -95,7 +115,11 @@ export default function Projects() {
                     {project.type}
                   </span>
                   {project.link !== "#" && (
-                    <a href={project.link} target="_blank" className="text-zinc-400 hover:text-blue-500 transition-colors">
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      className="text-zinc-400 hover:text-blue-500 transition-colors"
+                    >
                       <ExternalLink className="h-5 w-5" />
                     </a>
                   )}
@@ -107,11 +131,15 @@ export default function Projects() {
                   {project.description}
                 </CardDescription>
               </CardHeader>
-              
+
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {project.tags.map(tag => (
-                    <Badge key={tag} variant="secondary" className="bg-zinc-100 dark:bg-zinc-800 text-[10px] font-medium uppercase">
+                  {project.tags.map((tag) => (
+                    <Badge
+                      key={tag}
+                      variant="secondary"
+                      className="bg-zinc-100 dark:bg-zinc-800 text-[10px] font-medium uppercase"
+                    >
                       {tag}
                     </Badge>
                   ))}
@@ -122,5 +150,5 @@ export default function Projects() {
         ))}
       </div>
     </section>
-  )
+  );
 }
