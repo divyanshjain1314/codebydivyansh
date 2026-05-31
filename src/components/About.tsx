@@ -19,7 +19,7 @@ export default function About() {
           >
             <div className="relative w-full h-137.5 md:h-162.5 max-w-lg aspect-3/4 rounded-3xl overflow-hidden border border-zinc-200 dark:border-zinc-800 shadow-2xl group">
               <Image
-                src="/Divyansh.jpeg"
+                src="/divyansh.jpeg"
                 alt="Divyansh Jain"
                 width={1024}
                 height={1152}
