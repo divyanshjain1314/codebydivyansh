@@ -15,8 +15,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Divyansh Jain | Frontend Developer",
-  description: "Portfolio of Divyansh Jain - Building modern web experiences with Next.js and TypeScript",
- icons: {
+  description:
+    "Portfolio of Divyansh Jain - Building modern web experiences with Next.js and TypeScript",
+  icons: {
     icon: "/fav.png",
   },
 };
@@ -28,7 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
